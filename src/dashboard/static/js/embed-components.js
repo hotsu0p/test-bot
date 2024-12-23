@@ -3070,7 +3070,7 @@ var emojis = {
     "rice_ball": "🍙",
     "rice": "🍚",
     "rice_cracker": "🍘",
-    "fish_cake": "🍥",
+    "addSubcommand_cake": "🍥",
     "fortune_cookie": "🥠",
     "moon_cake": "🥮",
     "oden": "🍢",

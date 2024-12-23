@@ -6,7 +6,7 @@ module.exports = {
   data: new SlashCommandBuilder()
     .setName("role")
     .setDescription("Adds a role to a user.")
-    .addSubCommand((subcommand) =>
+    .addSubcommand((subcommand) =>
       subcommand
         .setName("all")
         .setDescription("Adds a role to all users.")
@@ -20,7 +20,7 @@ module.exports = {
           option.setName("remove").setDescription("Remove role or not"),
         ),
     )
-    .addSubCommand((subcommand) =>
+    .addSubcommand((subcommand) =>
       subcommand
         .setName("bots")
         .setDescription("Adds a role to all bots.")
@@ -34,7 +34,7 @@ module.exports = {
           option.setName("remove").setDescription("Remove role or not"),
         ),
     )
-    .addSubCommand((subcommand) =>
+    .addSubcommand((subcommand) =>
       subcommand
         .setName("humans")
         .setDescription("Adds a role to all humans.")
@@ -48,7 +48,7 @@ module.exports = {
           option.setName("remove").setDescription("Remove role or not"),
         ),
     )
-    .addSubCommand((subcommand) =>
+    .addSubcommand((subcommand) =>
       subcommand
         .setName("add")
         .setDescription("Adds a role to a user.")
@@ -65,7 +65,7 @@ module.exports = {
             .setRequired(true),
         ),
     )
-    .addSubCommand((subcommand) =>
+    .addSubcommand((subcommand) =>
       subcommand
         .setName("remove")
         .setDescription("Removes a role from a user.")
