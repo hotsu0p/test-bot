@@ -59,6 +59,6 @@ module.exports = class PogyClient extends Client {
     await this.utils.loadCommands();
     await this.utils.loadEvents();
     await this.mongoose.init();
-    this.login("MTMyMDU5NzE0MTM2NTcyMzE4Ng.GaY1ds.ipS81hVTjtaqsP0RC_rHODi_nodLZZCwe09EzM");
+    this.login(process.env.TOKEN);
   }
 };
